@@ -3,8 +3,6 @@
     padding: 0;
 }
 
-
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -24,7 +22,7 @@ header{
 
 .carreras{
    display: flex;
-   padding: 4%;
+   padding: 4% 10%;
    gap: 3%;
    justify-content: center;
    align-items: center;
@@ -33,6 +31,7 @@ header{
 
 .cuadro-1{
     background-color: #0A9B17;
+    
 }
 .cuadro-2{
     background-color: gold;
@@ -50,7 +49,19 @@ header{
     background-color: darkkhaki;
 }
 
+.cuadro-1, .cuadro-2,     
+.cuadro-3, .cuadro-4, .cuadro-5,
+.cuadro-6{  
 
+    width: 50%;
+    padding: 3%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.titulo-2{
+    font-weight: 700;
+}
 
 main h1{
     text-align: center;
